@@ -7,9 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="online-common" />
+        <module name="online-edu" />
         <module name="online-user" />
+        <module name="online-common" />
+        <module name="onlineedu" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="online-edu" target="1.8" />
+      <module name="onlineedu" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
