@@ -33,10 +33,10 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("人人开源")
-                .description("renren-admin文档")
-                .termsOfServiceUrl("https://www.renren.io")
-                .version("5.x")
+                .title("")
+                .description("")
+                .termsOfServiceUrl("")
+                .version("")
                 .build();
     }
 
